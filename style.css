@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BASE STYLES */
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1f2937;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.about {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+/* HEADINGS */
+h2 {
+    margin-bottom: 10px;
+    color: #1f2937;
+    font-size: 1.5rem;
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.skills li {
+    list-style: none;
+    background: #e5e7eb;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* CARDS */
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #111827;
+    font-size: 1.2rem;
+}
+
+.card span {
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+.card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.card ul li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #6b7280;
+    font-size: 0.85rem;
+}
+
+/* ========================= */
+/* 📱 MOBILE RESPONSIVENESS */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    header p {
+        font-size: 0.95rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .card h3 {
+        font-size: 1.1rem;
+    }
+
+    .card ul li {
+        font-size: 0.9rem;
+    }
+
+    .skills li {
+        font-size: 0.85rem;
+        padding: 6px 10px;
+    }
+}
+
+/* ========================= */
+/* 📱 SMALL PHONES */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .about,
+    .card {
+        padding: 15px;
+    }
+
+    .skills {
+        gap: 8px;
+    }
+
+    .skills li {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+
+.links {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.links p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.links a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
